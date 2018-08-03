@@ -4,3 +4,7 @@
 - KimhokyunConfiguration 클래스는 Kimhokyun을 자동설정 해주는 클래스
 
 - META-INF/spring.factories 파일은 스프링부트에게 자동설정(KimhokyunConfiguration) 클래스를 알려주는 설정 
+
+
+관련 프로젝트
+[Spring Boot Getting Started](https://github.com/devfuner/springbootgettingstarted)
