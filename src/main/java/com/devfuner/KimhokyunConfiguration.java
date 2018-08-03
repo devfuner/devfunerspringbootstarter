@@ -1,5 +1,6 @@
 package com.devfuner;
 
+import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -10,6 +11,7 @@ import org.springframework.context.annotation.Configuration;
 public class KimhokyunConfiguration {
 
     @Bean
+    @ConditionalOnMissingBean
     public Kimhokyun kimhokyun() {
         Kimhokyun kimhokyun = new Kimhokyun();
         kimhokyun.setName("김호균");
